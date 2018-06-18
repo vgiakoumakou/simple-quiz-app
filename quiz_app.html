@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Quiz App</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+	<div id="quiz" class="container">
+
+		<i id="question-icon" class="fa fa-question-circle"></i>
+
+		<div class="row" id="title-question-wrapper">
+			<div class="col-md-12">
+				<h1>Quiz</h1>
+				<h4 id="question"></h4>
+			</div>
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="choice-buttons col-4">
+				<button id="btn0" type="button" class="btn btn-primary"><span id="choice0"></span></button>
+			</div>
+			<div class="choice-buttons col-4">
+				<button id="btn1" type="button" class="btn btn-primary"><span id="choice1"></span></button>
+			</div>
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="choice-buttons col-4">
+				<button id="btn2" type="button" class="btn btn-primary"><span id="choice2"></span></button>
+			</div>
+			<div class="choice-buttons col-4">
+				<button id="btn3" type="button" class="btn btn-primary"><span id="choice3"></span></button>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="buttons col-md-12">
+				<p id="progress"><!-- Question x of y. --></p>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="quiz_controller.js"></script>
+	<script src="question.js"></script>
+	<script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+#quiz {
+	margin-top: 70px;
+    text-align: center;
+    box-shadow: 8px 10px 20px 0 rgba(46,61,73,.15);
+    border-radius: 10px;
+    width: 70%;
+    margin-left: 15%;
+    border-top: 8px solid #2196F3;
+}
+
+#question-icon {
+	font-size: 5em;
+    color: #2196F3;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#title-question-wrapper {
+    margin-bottom: 25px;
+}
+
+button {
+	width: 95%;
+    max-width: 250px;
+}
+
+.choice-buttons {
+    margin-bottom: 10px;
+}
+
+#progress {
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
